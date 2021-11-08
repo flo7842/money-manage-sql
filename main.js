@@ -15,6 +15,7 @@ const {Istmt, Employees, Company} = require('./db/database')
 
 
 
+
 sequelizeDb.initDb()
 // Make window
 
@@ -25,9 +26,10 @@ function createWindow() {
         minWidth: 1024,
         minHeight: 640,
         darkTheme: true,
-        frame: false,
+        frame: true,
         icon: path.join(__dirname, './img/budget.ico'),
         webPreferences: {
+            enableRemoteModule: true,
             nodeIntegration: true,
             contextIsolation: false,
             devTools: true,
@@ -148,11 +150,28 @@ app.whenReady().then(() => {
     app.on('activate', () => {
         if(BrowserWindow.getAllWindows.length === 0){
             createWindow()
+            
+
+            
         }
     })
-
+    var prefsWindow = new BrowserWindow({
+        width: 400,
+        height: 400,
+        show: false
+    })
+    prefsWindow.loadURL('file://' + __dirname + '/livre.html')
     
+    ipc.on('toggle-prefs', function(){
+        if(prefsWindow.isVisible())
+            prefsWindow.hide()
+        else
+            prefsWindow.show()
+    })
+   
 })
+
+
 
 app.on('window-all-closed', () => {
     if(process.platform !== 'darwin'){

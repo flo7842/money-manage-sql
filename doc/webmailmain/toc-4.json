@@ -1,0 +1,35 @@
+{
+"id": "4",
+"fr": {
+"label": "Formation",
+"topics": [
+            {
+"id": "11698",
+"label": "L'étiquette de l'email et vous: comment ne pas se faire virer",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/4/11698.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+},
+"en": {
+"label": "Training",
+"topics": [
+            {
+"id": "11698",
+"label": "Email etiquette and you: how not to get fired",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/4/11698.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+}
+}

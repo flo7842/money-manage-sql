@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "articles": "Need more...",
+    "links": "Related topics",
+    "iconAlt": "Help",
+    "comingSoon": "Contextual help is coming soon.",
+    "errorTitle":  "Error"
+  },
+  "errors": {
+    "failedData": "An error occurred when fetching data ! \nCheck the brick keys provided to the EdcHelp component."
+  }
+}

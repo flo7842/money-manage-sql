@@ -1,0 +1,12 @@
+{
+  "labels": {
+    "articles": "Plus...",
+    "links": "Sujets associés",
+    "iconAlt": "Aide",
+    "comingSoon": "L'aide contextuelle arrive bientôt...",
+    "errorTitle":  "Erreur"
+  },
+  "errors": {
+    "failedData": "Une erreur s'est produite lors de la récupération des données! \nVérifiez les clés de brique fournies au composant EdcHelp"
+  }
+}

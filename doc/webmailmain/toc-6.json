@@ -1,0 +1,49 @@
+{
+"id": "6",
+"fr": {
+"label": "Concepts",
+"topics": [
+            {
+"id": "11690",
+"label": "Pourquoi ne pas simplement utiliser un pigeon voyageur?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/6/11690.html",
+"topics": [
+],
+"links": [
+    {
+    "id": "11685",
+    "label": "Écrire un e-mail à l'aide d'un logiciel de dictée",
+    "type": "DOCUMENT",
+    "url":"webmailmain/html/fr/2/11685.html"
+    }
+        
+]
+}
+
+    ]
+},
+"en": {
+"label": "Concepts",
+"topics": [
+            {
+"id": "11690",
+"label": "Why can't I just use a carrier pigeon?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/6/11690.html",
+"topics": [
+],
+"links": [
+    {
+    "id": "11685",
+    "label": "Write an email using dictation software",
+    "type": "DOCUMENT",
+    "url":"webmailmain/html/en/2/11685.html"
+    }
+        
+]
+}
+
+    ]
+}
+}

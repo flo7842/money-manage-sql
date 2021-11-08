@@ -1,0 +1,101 @@
+{
+"id": "2",
+"fr": {
+"label": "Comment faire ?",
+"topics": [
+            {
+"id": "11712",
+"label": "How to write an email",
+"type": "CHAPTER",
+"url":"webmailmain/html/fr/2/11712.html",
+"topics": [
+        {
+"id": "11685",
+"label": "Écrire un e-mail à l'aide d'un logiciel de dictée",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/2/11685.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11713",
+"label": "Écrire un e-mail à l'aide d'un clavier",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/2/11713.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11722",
+"label": "Comment lire un e-mail",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/2/11722.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+},
+"en": {
+"label": "How tos",
+"topics": [
+            {
+"id": "11712",
+"label": "How to write an email",
+"type": "CHAPTER",
+"url":"webmailmain/html/en/2/11712.html",
+"topics": [
+        {
+"id": "11685",
+"label": "Write an email using dictation software",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/2/11685.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11713",
+"label": "Write an email using a keyboard",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/2/11713.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11722",
+"label": "How to read an email",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/2/11722.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+}
+}

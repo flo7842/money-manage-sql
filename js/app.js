@@ -1,7 +1,65 @@
-const { ipcRenderer } = require('electron')
+const {remote, ipcRenderer} = require('electron')
 const ipc = ipcRenderer
 var moment = require('moment');
+const path = require('path')
+const { EdcClient, Documentation, Helper, InformationMap } = require('edc-client-js') ;
 
+// const {Menu, MenuItem} = remote
+
+// const menu = new Menu()
+
+// menu.append(new MenuItem(
+//     {
+//         label: 'Le label',
+//         submenu: [
+//             {
+//                 label: 'Sous-menu',
+//                 click: function(){
+//                     ipcRenderer.send('toggle-prefs')
+//                 }
+//             }
+//         ]
+//     })
+// )
+
+// Menu.setApplicationMenu(menu)
+//console.log('path', path.join(__dirname, "doc\\index.html"))
+let tocFr = [];
+let label = "";
+let type;
+let url;
+let edcClient = new EdcClient(path.join(__dirname, "/doc/"), path.join(__dirname, "/doc/i18n/web-help"))
+edcClient.getToc().then(toc => {
+    
+    console.log('firsttoc', toc)
+    tocFr.push(toc.toc[0].fr.topics[0].label)
+    tocFr.push(toc.toc[0].fr.topics[0].url)
+});
+let urlQuestion = document.createElement('a')
+let questionIcon = document.getElementById('question-icon');
+
+questionIcon.addEventListener('mouseover', function(e) {
+    
+    urlQuestion.innerHTML = tocFr[0]
+    urlQuestion.setAttribute('href', tocFr[1])
+    questionIcon.appendChild(urlQuestion)
+})
+questionIcon.addEventListener('mouseout', function(e) {
+    questionIcon.removeChild(urlQuestion)
+})
+
+console.log('Label', tocFr)
+    
+edcClient.getPopoverLabels().then(toc => {
+        this.toc = toc
+        console.log('title', toc)
+}
+);
+
+// edcContent.then(async function(result) {
+//     console.log('result', await result)
+// })
+//console.log('edcClient',edcClient.getContent())
 const reduceBtn = document.getElementById('reduceBtn')
 const sizeBtn = document.getElementById('sizeBtn')
 const closeBtn = document.getElementById('closeBtn')
@@ -412,4 +470,3 @@ ipc.on('get-company', (e, args) => {
     const company = JSON.parse(args)
     
 })
-

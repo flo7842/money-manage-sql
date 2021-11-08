@@ -1,0 +1,35 @@
+{
+"id": "5",
+"fr": {
+"label": "Notes de version",
+"topics": [
+            {
+"id": "11702",
+"label": "Version 725.2",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/5/11702.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+},
+"en": {
+"label": "Release Notes",
+"topics": [
+            {
+"id": "11702",
+"label": "Version 725.2",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/5/11702.html",
+"topics": [
+],
+"links": [
+]
+}
+
+    ]
+}
+}

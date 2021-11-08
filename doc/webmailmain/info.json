@@ -1,0 +1,17 @@
+{
+"vendor": "EDC",
+"version": "3.0.0",
+"name": "Aide Web Mail Demo",
+"titles": {
+    "fr": {
+    "title": "Aide Web Mail Demo"
+    },
+    "en": {
+    "title": "Web Mail Demo Help"
+    }},
+"identifier": "webmailmain",
+"defaultLanguage": "en",
+"languages": [
+    "en",
+    "fr"]
+}

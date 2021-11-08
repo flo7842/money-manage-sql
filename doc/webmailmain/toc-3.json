@@ -1,0 +1,71 @@
+{
+"id": "3",
+"fr": {
+"label": "Q&R",
+"topics": [
+            {
+"id": "11699",
+"label": "Que dois-je faire si mon courriel ne fonctionne pas?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/3/11699.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+            {
+"id": "11708",
+"label": "Comment ouvrir mon courriel ?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/3/11708.html",
+"topics": [
+],
+"links": [
+    {
+    "id": "11690",
+    "label": "Pourquoi ne pas simplement utiliser un pigeon voyageur?",
+    "type": "DOCUMENT",
+    "url":"webmailmain/html/fr/6/11690.html"
+    }
+        
+]
+}
+
+    ]
+},
+"en": {
+"label": "Q&A",
+"topics": [
+            {
+"id": "11699",
+"label": "What do I do if my email doesn't work?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/3/11699.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+            {
+"id": "11708",
+"label": "How do I open my email?",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/3/11708.html",
+"topics": [
+],
+"links": [
+    {
+    "id": "11690",
+    "label": "Why can't I just use a carrier pigeon?",
+    "type": "DOCUMENT",
+    "url":"webmailmain/html/en/6/11690.html"
+    }
+        
+]
+}
+
+    ]
+}
+}
