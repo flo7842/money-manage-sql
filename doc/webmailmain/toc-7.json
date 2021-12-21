@@ -1,0 +1,211 @@
+{
+"id": "7",
+"fr": {
+"label": "Glossaire",
+"topics": [
+            {
+"id": "11732",
+"label": "Email terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/fr/7/11732.html",
+"topics": [
+        {
+"id": "11687",
+"label": "email",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11687.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11734",
+"label": "webmail",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11734.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11731",
+"label": "Server terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/fr/7/11731.html",
+"topics": [
+        {
+"id": "11736",
+"label": "server",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11736.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11733",
+"label": "General terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/fr/7/11733.html",
+"topics": [
+        {
+"id": "11737",
+"label": "Fail (verb)",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11737.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11738",
+"label": "Fail (noun)",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11738.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11739",
+"label": "Failure",
+"type": "DOCUMENT",
+"url":"webmailmain/html/fr/7/11739.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+
+    ]
+},
+"en": {
+"label": "Glossary",
+"topics": [
+            {
+"id": "11732",
+"label": "Email terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/en/7/11732.html",
+"topics": [
+        {
+"id": "11687",
+"label": "email",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11687.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11734",
+"label": "webmail",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11734.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11731",
+"label": "Server terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/en/7/11731.html",
+"topics": [
+        {
+"id": "11736",
+"label": "server",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11736.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+,
+            {
+"id": "11733",
+"label": "General terms",
+"type": "CHAPTER",
+"url":"webmailmain/html/en/7/11733.html",
+"topics": [
+        {
+"id": "11737",
+"label": "Fail (verb)",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11737.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11738",
+"label": "Fail (noun)",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11738.html",
+"topics": [
+],
+"links": [
+]
+}
+,
+        {
+"id": "11739",
+"label": "Failure",
+"type": "DOCUMENT",
+"url":"webmailmain/html/en/7/11739.html",
+"topics": [
+],
+"links": [
+]
+}
+
+],
+"links": [
+]
+}
+
+    ]
+}
+}

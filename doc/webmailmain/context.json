@@ -1,0 +1,209 @@
+{
+"fr.techad.edc.showcase.mailreader" : {
+    "leftmenu.account": {
+        "fr": {
+            "description": "Le navigateur vous permet de gérer votre messagerie.",
+        "url": "webmailmain/html/fr/1/11703/index.html",
+        "label": "Navigateur de messagerie",
+        "articles": [
+                {
+                "id": "11704",
+                "label": "En bref...",
+                "url": "webmailmain/html/fr/1/11703/3.html"
+                },
+                {
+                "id": "11711",
+                "label": "Prérequis",
+                "url": "webmailmain/html/fr/1/11703/5.html"
+                }
+        ],
+        "links": [
+                {
+                "id": "11708",
+                "label": "Comment ouvrir mon courriel ?",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/fr/3/11708.html"
+                }
+        ]
+        },
+                "en": {
+            "description": "The browser lets you manage your email.",
+        "url": "webmailmain/html/en/1/11703/index.html",
+        "label": "Mail browser",
+        "articles": [
+                {
+                "id": "11704",
+                "label": "About this option or subject",
+                "url": "webmailmain/html/en/1/11703/3.html"
+                },
+                {
+                "id": "11711",
+                "label": "What are the pre-requisites?",
+                "url": "webmailmain/html/en/1/11703/5.html"
+                }
+        ],
+        "links": [
+                {
+                "id": "11708",
+                "label": "How do I open my email?",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/en/3/11708.html"
+                }
+        ]
+        }
+         
+    },
+        "menu": {
+        "fr": {
+            "description": "La description est la première chose que les utilisateurs voient dans la prévisualisation.",
+        "url": "webmailmain/html/fr/1/11705/index.html",
+        "label": "Barre d'outils",
+        "articles": [
+                {
+                "id": "11706",
+                "label": "En bref...",
+                "url": "webmailmain/html/fr/1/11705/3.html"
+                },
+                {
+                "id": "11707",
+                "label": "Utilisation",
+                "url": "webmailmain/html/fr/1/11705/4.html"
+                }
+        ],
+        "links": [
+        ]
+        },
+                "en": {
+            "description": "The description is the first thing users see in the previsualization.",
+        "url": "webmailmain/html/en/1/11705/index.html",
+        "label": "Toolbar",
+        "articles": [
+                {
+                "id": "11706",
+                "label": "About this option or subject",
+                "url": "webmailmain/html/en/1/11705/3.html"
+                },
+                {
+                "id": "11707",
+                "label": "How do I use it?",
+                "url": "webmailmain/html/en/1/11705/4.html"
+                }
+        ],
+        "links": [
+        ]
+        }
+         
+    },
+        "email.tab": {
+        "fr": {
+            "description": "Utilisez ce panneau pour lire votre e-mail",
+        "url": "webmailmain/html/fr/1/11719/index.html",
+        "label": "Message",
+        "articles": [
+                {
+                "id": "11720",
+                "label": "En bref...",
+                "url": "webmailmain/html/fr/1/11719/3.html"
+                },
+                {
+                "id": "11721",
+                "label": "Utilisation",
+                "url": "webmailmain/html/fr/1/11719/4.html"
+                }
+        ],
+        "links": [
+        ]
+        },
+                "en": {
+            "description": "Use this panel to read your email",
+        "url": "webmailmain/html/en/1/11719/index.html",
+        "label": "Message",
+        "articles": [
+                {
+                "id": "11720",
+                "label": "About this option or subject",
+                "url": "webmailmain/html/en/1/11719/3.html"
+                },
+                {
+                "id": "11721",
+                "label": "How do I use it?",
+                "url": "webmailmain/html/en/1/11719/4.html"
+                }
+        ],
+        "links": [
+        ]
+        }
+         
+    }
+     
+},
+"fr.techad.edc.showcase.external" : {
+    "external.header": {
+        "fr": {
+            "description": "Une description rapide peut parfois être tout ce dont vos utilisateurs ont besoin.",
+        "url": "webmailmain/html/fr/1/11695/index.html",
+        "label": "Démonstrateur Webmail",
+        "articles": [
+                {
+                "id": "11696",
+                "label": "En bref...",
+                "url": "webmailmain/html/fr/1/11695/3.html"
+                },
+                {
+                "id": "11697",
+                "label": "Utilisation",
+                "url": "webmailmain/html/fr/1/11695/4.html"
+                }
+        ],
+        "links": [
+                {
+                "id": "11722",
+                "label": "Comment lire un e-mail",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/fr/2/11722.html"
+                },
+                {
+                "id": "11690",
+                "label": "Pourquoi ne pas simplement utiliser un pigeon voyageur?",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/fr/6/11690.html"
+                }
+        ]
+        },
+                "en": {
+            "description": "A quick description can sometimes be all your users need.",
+        "url": "webmailmain/html/en/1/11695/index.html",
+        "label": "Webmail showcase",
+        "articles": [
+                {
+                "id": "11696",
+                "label": "About this option or subject",
+                "url": "webmailmain/html/en/1/11695/3.html"
+                },
+                {
+                "id": "11697",
+                "label": "How do I use it?",
+                "url": "webmailmain/html/en/1/11695/4.html"
+                }
+        ],
+        "links": [
+                {
+                "id": "11722",
+                "label": "How to read an email",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/en/2/11722.html"
+                },
+                {
+                "id": "11690",
+                "label": "Why can't I just use a carrier pigeon?",
+                "type": "DOCUMENT",
+                "url": "webmailmain/html/en/6/11690.html"
+                }
+        ]
+        }
+         
+    }
+     
+}
+ 
+}
