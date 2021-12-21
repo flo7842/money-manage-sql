@@ -33,7 +33,7 @@ edcClient.getToc().then(toc => {
     
     console.log('firsttoc', toc)
     tocFr.push(toc.toc[0].fr.topics[0].label)
-    tocFr.push(toc.toc[0].fr.topics[0].url)
+    tocFr.push(toc.toc[0].fr.topics[1].url)
 });
 let urlQuestion = document.createElement('a')
 let questionIcon = document.getElementById('question-icon');
@@ -41,12 +41,10 @@ let questionIcon = document.getElementById('question-icon');
 questionIcon.addEventListener('mouseover', function(e) {
     
     urlQuestion.innerHTML = tocFr[0]
-    urlQuestion.setAttribute('href', tocFr[1])
+    urlQuestion.setAttribute('href', 'doc/'+tocFr[1])
     questionIcon.appendChild(urlQuestion)
 })
-questionIcon.addEventListener('mouseout', function(e) {
-    questionIcon.removeChild(urlQuestion)
-})
+
 
 console.log('Label', tocFr)
     
@@ -59,7 +57,7 @@ edcClient.getPopoverLabels().then(toc => {
 // edcContent.then(async function(result) {
 //     console.log('result', await result)
 // })
-//console.log('edcClient',edcClient.getContent())
+// console.log('edcClient',edcClient.getContent())
 const reduceBtn = document.getElementById('reduceBtn')
 const sizeBtn = document.getElementById('sizeBtn')
 const closeBtn = document.getElementById('closeBtn')
